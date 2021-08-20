@@ -6,7 +6,9 @@
 
 <!-- <img src="doc/teaser.png" align="center" width="66%"> -->
 
-This repository is the official implementation of our ICCV 2021 paper titled "End-to-End Urban Driving by Imitating a Reinforcement Learning Coach."
+This is the official code release of the paper <br> 
+**[End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265)** <br>
+*by [Zhejun Zhang](https://www.trace.ethz.ch/team/members/zhejun.html), [Alexander Liniger](https://www.trace.ethz.ch/team/members/alex.html), [Dengxin Dai](https://www.trace.ethz.ch/team/members/dengxin.html), [Fisher Yu](https://www.yf.io/) and [Luc van Gool](https://www.trace.ethz.ch/team/members/luc.html)*, accepted at [ICCV 2021](http://iccv2021.thecvf.com). <br>
 
 It contains the code for [benchmark](#benchmark), [off-policy data collection](#collect-off-policy-datasets), [on-policy data collection](#collect-on-policy-datasets), [RL training](#train-rl-experts) and [IL training with DAGGER](#train-il-agents).
 It also contains [trained models](#trained-models) of RL experts and IL agents.
