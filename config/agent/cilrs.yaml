@@ -1,0 +1,21 @@
+# @package _group_
+cilrs:
+  entry_point: agents.cilrs.cilrs_agent:CilrsAgent
+  ckpt: null
+  wb_run_path: null
+  wb_ckpt_step: null
+  rl_run_path: null
+  rl_ckpt_step: null
+  env_wrapper:
+    entry_point: agents.cilrs.cilrs_wrapper:CilrsWrapper
+    kwargs:
+      acc_as_action: true
+      view_augmentation: false
+      value_as_supervision: false
+      value_factor: 1.0
+      action_distribution: null
+      dim_features_supervision: 0
+      input_states: ["speed"]
+      im_mean: [0.485, 0.456, 0.406]
+      im_std: [0.229, 0.224, 0.225]
+      im_stack_idx: [-1]

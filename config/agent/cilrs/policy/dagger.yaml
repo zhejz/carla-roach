@@ -1,0 +1,20 @@
+# @package _group_
+entry_point: agents.cilrs.models.cilrs_model:CoILICRA
+kwargs:
+  freeze_value_head: false
+  freeze_action_head: false
+  resnet_pretrain: true
+  perception_output_neurons: 1000
+  measurements_neurons: [128, 128]
+  measurements_dropouts: [0.0, 0.0]
+  join_neurons: [512, 512, 256]
+  join_dropouts: [0.0, 0.0, 0.0]
+  speed_branch_neurons: [256, 256]
+  speed_branch_dropouts: [0.0, 0.5]
+  value_branch_neurons: [256, 256]
+  value_branch_dropouts: [0.0, 0.5]
+  number_of_branches: 6
+  branches_neurons: [256, 256]
+  branches_dropouts: [0.0, 0.5]
+  squash_outputs: false
+  perception_net: resnet34

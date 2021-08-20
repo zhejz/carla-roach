@@ -1,0 +1,46 @@
+defaults:
+  - agent: roaming
+  - agent/roaming/obs_configs: birdview
+  - agent: cilrs
+  - agent/cilrs/obs_configs: central_rgb_wide
+  - agent: ppo
+  - agent/ppo/obs_configs: birdview
+  - test_suites: eu_data
+actors:
+  hero:
+    driver: roaming
+    coach: null
+    reward:
+      entry_point: reward.valeo_action:ValeoAction
+    terminal:
+      entry_point: terminal.leaderboard_dagger:LeaderboardDagger
+      kwargs:
+        max_time: 900
+        no_collision: false
+        no_run_rl: false
+        no_run_stop: false
+remove_final_steps: true
+dagger_thresholds:
+  acc: null
+  steer: null
+  throttle: null
+  brake: null
+alpha_coach: null
+save_to_wandb: false
+dataset_root: null
+ev_id: hero
+inject_noise: false
+n_episodes: 2
+resume: false
+carla_sh_path: null
+log_level: INFO
+host: localhost
+port: 2000
+seed: 2021
+no_rendering: false
+kill_running: true
+wb_project: data_collect
+wb_notes: null
+wb_group: null
+wb_tags: null
+log_video: true

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding='ASCII'?>
+<routes>
+	<route id="0">
+		<ego_vehicle id="hero">
+			<waypoint x="191.080" y="55.840" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="92.110" y="30.820" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="1">
+		<ego_vehicle id="hero">
+			<waypoint x="47.940" y="2.020" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="88.620" y="26.560" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="2">
+		<ego_vehicle id="hero">
+			<waypoint x="92.110" y="159.950" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="157.190" y="133.240" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="3">
+		<ego_vehicle id="hero">
+			<waypoint x="1.560" y="22.440" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="62.130" y="2.020" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="4">
+		<ego_vehicle id="hero">
+			<waypoint x="92.110" y="227.220" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="142.361" y="198.760" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="5">
+		<ego_vehicle id="hero">
+			<waypoint x="-1.280" y="309.460" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="46.150" y="330.460" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="6">
+		<ego_vehicle id="hero">
+			<waypoint x="334.830" y="217.080" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="295.082" y="199.060" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="7">
+		<ego_vehicle id="hero">
+			<waypoint x="153.760" y="28.900" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="115.186" y="2.020" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="8">
+		<ego_vehicle id="hero">
+			<waypoint x="395.960" y="68.860" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="358.744" y="-1.960" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="9">
+		<ego_vehicle id="hero">
+			<waypoint x="47.940" y="-1.960" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="-2.420" y="48.700" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="10">
+		<ego_vehicle id="hero">
+			<waypoint x="1.560" y="48.700" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="244.100" y="2.020" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="11">
+		<ego_vehicle id="hero">
+			<waypoint x="271.040" y="129.490" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="88.620" y="169.850" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="12">
+		<ego_vehicle id="hero">
+			<waypoint x="219.645" y="129.750" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="88.620" y="247.458" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="13">
+		<ego_vehicle id="hero">
+			<waypoint x="142.920" y="326.970" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="92.110" y="227.220" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="14">
+		<ego_vehicle id="hero">
+			<waypoint x="237.700" y="129.750" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="88.620" y="247.458" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="15">
+		<ego_vehicle id="hero">
+			<waypoint x="395.960" y="308.210" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="21.770" y="-1.960" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="16">
+		<ego_vehicle id="hero">
+			<waypoint x="373.924" y="-1.960" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="-1.280" y="309.460" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="17">
+		<ego_vehicle id="hero">
+			<waypoint x="-2.420" y="17.780" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="381.980" y="330.892" yaw="0.000" z="1.322" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="18">
+		<ego_vehicle id="hero">
+			<waypoint x="22.180" y="330.460" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="396.450" y="19.920" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="19">
+		<ego_vehicle id="hero">
+			<waypoint x="373.924" y="-1.960" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="88.620" y="247.458" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="20">
+		<ego_vehicle id="hero">
+			<waypoint x="1.510" y="295.423" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="378.180" y="2.020" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="21">
+		<ego_vehicle id="hero">
+			<waypoint x="47.940" y="2.020" yaw="-0.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="392.470" y="308.210" yaw="90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="22">
+		<ego_vehicle id="hero">
+			<waypoint x="262.600" y="327.050" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="92.110" y="95.450" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="23">
+		<ego_vehicle id="hero">
+			<waypoint x="258.262" y="195.570" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="92.110" y="30.820" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+	<route id="24">
+		<ego_vehicle id="hero">
+			<waypoint x="271.040" y="129.490" yaw="180.000" z="1.321" roll="0.000" pitch="0.000" />
+			<waypoint x="92.110" y="30.820" yaw="-90.000" z="1.321" roll="0.000" pitch="0.000" />
+		</ego_vehicle>
+	</route>
+</routes>

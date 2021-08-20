@@ -1,0 +1,21 @@
+# @package _group_
+- env_id: NoCrash-v3
+  env_configs:
+    route_description: lbc
+    carla_map: Town01
+    weather_group: train_eval
+- env_id: NoCrash-v3
+  env_configs:
+    route_description: lbc
+    carla_map: Town01
+    weather_group: new
+- env_id: NoCrash-v3
+  env_configs:
+    route_description: lbc
+    carla_map: Town02
+    weather_group: train_eval
+- env_id: NoCrash-v3
+  env_configs:
+    route_description: lbc
+    carla_map: Town02
+    weather_group: new

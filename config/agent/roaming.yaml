@@ -1,0 +1,10 @@
+# @package _group_
+roaming:
+  entry_point: agents.expert.lbc_roaming_agent:LbcRoamingAgent
+  hack_throttle: true
+  target_speed: 6.0
+  resolution: 1.0
+  longitudinal_pid_params: [0.5, 0.025, 0.1]
+  lateral_pid_params: [0.75, 0.05, 0.0]
+  threshold_before: 7.5
+  threshold_after: 5.0

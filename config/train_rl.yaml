@@ -1,0 +1,26 @@
+defaults:
+  - agent: ppo
+  - agent/ppo/policy: xtma_beta
+  - agent/ppo/training: ppo
+  - agent/ppo/obs_configs: birdview
+  - train_envs: endless_all
+actors:
+  hero:
+    agent: ppo
+    reward:
+      entry_point: reward.valeo_action:ValeoAction
+      kwargs: {}
+    terminal:
+      entry_point: terminal.valeo_no_det_px:ValeoNoDetPx
+      kwargs: {}
+ev_id: hero
+carla_sh_path: /home/ubuntu/apps/carla/carla910/CarlaUE4.sh
+total_timesteps: 1e8
+seed: 2021
+kill_running: true
+dummy: false
+wb_project: train_rl
+wb_name: null
+wb_notes: null
+wb_tags: null
+curriculum: false

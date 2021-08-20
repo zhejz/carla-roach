@@ -1,0 +1,37 @@
+# @package _group_
+birdview:
+  module: birdview.chauffeurnet
+  width_in_pixels: 192
+  pixels_ev_to_bottom: 40
+  pixels_per_meter: 5.0
+  history_idx: [-16, -11, -6, -1]
+  scale_bbox: false
+speed:
+  module: actor_state.speed
+gnss:
+  module: navigation.gnss
+central_rgb:
+  module: camera.rgb
+  fov: 90
+  width: 640
+  height: 360
+  location: [1.0, 0.0, 1.5]
+  rotation: [0.0, 0.0, 0.0]
+route_plan:
+  module: navigation.waypoint_plan
+  steps: 20
+surrounding_vehicles:
+  module: object_finder.vehicle
+  distance_threshold: 20
+  max_detection_number: 20
+surrounding_pedestrians:
+  module: object_finder.pedestrian
+  distance_threshold: 15
+  max_detection_number: 20
+stop_sign:
+  module: object_finder.stop_sign
+  distance_threshold: 10
+traffic_light:
+  module: object_finder.traffic_light_new
+ego_vehicle:
+  module: object_finder.ego

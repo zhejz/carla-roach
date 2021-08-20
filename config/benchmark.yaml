@@ -1,0 +1,23 @@
+defaults:
+  - agent: roaming
+  - test_suites: nocrash_dense
+actors:
+  hero:
+    agent: roaming
+    reward:
+      entry_point: reward.valeo_action:ValeoAction
+    terminal:
+      entry_point: terminal.leaderboard:Leaderboard
+carla_sh_path: null
+log_level: INFO
+host: localhost
+port: 2000
+seed: 2021
+no_rendering: false
+kill_running: true
+resume: true
+wb_project: debug
+wb_notes: null
+wb_group: null
+wb_tags: null
+log_video: true
