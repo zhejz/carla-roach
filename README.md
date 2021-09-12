@@ -12,6 +12,7 @@ This is the official code release of the paper <br>
 
 It contains the code for [benchmark](#benchmark), [off-policy data collection](#collect-off-policy-datasets), [on-policy data collection](#collect-on-policy-datasets), [RL training](#train-rl-experts) and [IL training with DAGGER](#train-il-agents).
 It also contains [trained models](#trained-models) of RL experts and IL agents.
+The supplementary videos can be found at the paper's [homepage](https://www.trace.ethz.ch/publications/2021/roach/index.html).
 
 ## Installation
 Please refer to [INSTALL.md](doc/INSTALL.md) for installation. 
