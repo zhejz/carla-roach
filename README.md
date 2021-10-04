@@ -14,6 +14,32 @@ It contains the code for [benchmark](#benchmark), [off-policy data collection](#
 It also contains [trained models](#trained-models) of RL experts and IL agents.
 The supplementary videos can be found at the paper's [homepage](https://www.trace.ethz.ch/publications/2021/roach/index.html).
 
+## The Offline Leaderboard
+
+The "Leaderboard" we evaluated on is an offline version of the [CARLA Leaderboard](https://leaderboard.carla.org/). As further detailed in the [paper](https://arxiv.org/pdf/2108.08265.pdf), the offline Leaderboard has the following setup
+- Map and routes: train/test split following Leaderboard [public routes](https://github.com/carla-simulator/leaderboard/tree/master/data).
+- Metrics: following Leaderboard evaluation and metrics.
+- Weather: train/test split following NoCrash.
+- Background traffic: following NoCrash
+
+One can use the offline Leaderboard if a thorough study on the generalization ability of the method is desired.
+
+### Pros and Cons of the [**Online** Leaderboard](https://leaderboard.carla.org/leaderboard/):
+
+(+) All methods are evaluated under exactly the same condition.
+
+(+) No need to re-evaluate other methods.
+
+(-) No restriction on how the method is trained and how the training data is collected. 
+
+### Pros and Cons of the **Offline** Leaderboard:
+(+) Strictly prescribes both the training and testing environment.
+
+(+) Full control and observation over the benchmark.
+
+(-) You will have to re-evaluate other methods, if any setup of the benchmark has changed, for example CARLA version and etc.
+
+
 ## Installation
 Please refer to [INSTALL.md](doc/INSTALL.md) for installation. 
 We use AWS EC2, but you can also install and run all experiments on your computer or cluster. 
