@@ -8,7 +8,7 @@
 
 This is the official code release of the paper <br> 
 **[End-to-End Urban Driving by Imitating a Reinforcement Learning Coach](https://arxiv.org/abs/2108.08265)** <br>
-*by [Zhejun Zhang](https://zhejz.github.io/), [Alexander Liniger](https://alexliniger.github.io/), [Dengxin Dai](https://scholar.google.com/citations?user=T51W57YAAAAJ&hl=en), Fisher Yu and [Luc van Gool](https://insait.ai/prof-luc-van-gool/)*, accepted at [ICCV 2021](http://iccv2021.thecvf.com). <br>
+*by [Zhejun Zhang](https://zhejz.github.io/), [Alexander Liniger](https://alexliniger.github.io/), [Dengxin Dai](https://scholar.google.com/citations?user=T51W57YAAAAJ&hl=en), Fisher Yu and [Luc van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjcxLC0xOTcxNDY1MTc4.html)*, published at [ICCV 2021](http://iccv2021.thecvf.com). <br>
 
 It contains the code for [benchmark](#benchmark), [off-policy data collection](#collect-off-policy-datasets), [on-policy data collection](#collect-on-policy-datasets), [RL training](#train-rl-experts) and [IL training with DAGGER](#train-il-agents).
 It also contains [trained models](#trained-models) of RL experts and IL agents.
